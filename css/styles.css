@@ -113,6 +113,8 @@ img {
 .header-mail,
 .header-tel {
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-style: normal;
   color: var(--main-color);
 }
@@ -127,8 +129,6 @@ img {
 .mail-icon,
 .phone-icon {
   fill: currentColor;
-  align-items: center;
-  justify-content: center;
 }
 .header-adress-list {
   display: flex;
